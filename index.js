@@ -1,19 +1,22 @@
+// The hrs, min, sec and count as variables 
 var hr=0;
 var min=0;
 var sec=0;
 var count=0;
 
 var timer=false;
-function start()
+    
+function start()                // Function to start
 {
     timer=true;
     stopwatch();
 } 
-function stop()
+
+function stop()                // Function to stop
 {
     timer=false;
 }
-function reset()
+function reset()               // Function to reset
 {
     timer=false;
     hr=0;
